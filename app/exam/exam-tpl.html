@@ -1,0 +1,10 @@
+sample
+<div ng-repeat="item in items">
+  <select class="col-md-3" ng-model="item.pick">
+    <option ng-repeat="datum in item.data | filter:selectedFilter" ng-value="datum.id" ng-bind="datum.name"></option>
+  </select>
+</div>
+<div>
+  <button type="submit" ng-click="submit(items)">submit</button>
+</div>
+

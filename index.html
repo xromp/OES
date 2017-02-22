@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app='oesapp' ng-cloak>
+  <head>
+    <style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-start{clip:rect(0,auto,auto,0);-ms-zoom:1.0001;}.ng-animate-active{clip:rect(-1px,auto,auto,0);-ms-zoom:1;}
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ONLINE EXAM SYSTEM | </title>
+         <!-- No Cache BEGIN -->
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
+     <!-- No Cache END-->
+    <!-- <base href="http://localhost:5000/app2/">  -->
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/custom/custom.min.css" rel="stylesheet">
+    <link href="assets/CSS/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body class="nav-md">
+  <div class="view-container">
+    <div class="container body" ng-cloak>
+      <div class="main_container">
+        <div ng-include="'app/shared/sidebar/sidebar-tpl.html'"></div>
+        <div class="right_col" role="main">
+          <div ng-view></div>
+        </div>
+        <div ng-include="'app/shared/footer/footer-tpl.html'"></div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/lib/jquery/jquery.min.js"></script>
+  <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+  <script src="assets/js/bootstrap/bootstrap-progressbar.min.js"></script>
+  <script src="assets/js/custom/custom.min.js"></script>
+
+  <script src="assets/lib/angular/angular.min.js"></script>
+  <script src="assets/lib/angular/angular-animate.min.js"></script>
+  <script src="assets/lib/angular/angular-resource.min.js"></script>
+  <script src="assets/lib/angular/angular-route.min.js"></script>
+
+  <script src="assets/js/bootstrap/ui-bootstrap-tpls-2.4.0.min.js"></script>
+  <script src="assets/js/requirejs/require.js"></script>
+  <script src="assets/js/requirejs/requirejs.js"></script>
+  <script src="app/app.module.js"></script>
+  <script src="app/app.config.js"></script>
+  <script src="app/exam/exam.js"></script>
+  <script src="app/shared/sidebar/sidebarApp.js"></script>
+  </body>
+</html>
